@@ -1,0 +1,41 @@
+.ticket-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.ticket-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.fly {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.ticket-price {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2196F3;
+}
+.fly .title {
+    text-transform: uppercase;
+    color: #A0B0B9;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.fly .message {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.fly-time .message {
+    text-transform: lowercase;
+}
+.fly-transfer {
+    width: 120px;
+}

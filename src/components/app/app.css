@@ -1,0 +1,27 @@
+.App {
+    width: 768px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 768px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper__sidebar {
+    width: 232px;
+    margin-right: 20px;
+}
+.wrapper__content {
+    width: 536px;
+}
+
